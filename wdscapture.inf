@@ -1,0 +1,15 @@
+[Capture]
+Unattended=Yes
+VolumeToCapture=D:\
+SystemRoot=Windows
+ImageName=Installations_Disque_Dur_NTFS20230205
+ImageDescription=CaptureWDS_DESKTOP-7PJ9HT7_Installations_Disque_Dur_NTFS20230205
+DestinationFile=D:\_Installations_Disque_Dur_NTFS_20230205.wim
+Overwrite=Yes
+[WDS]
+UploadToWDSServer=Yes
+WDSServerName=WinAD.jackson5.intra
+WDSImageGroup=ImageGroup1
+Username=Jackson5\Administrator
+Password=Password01$
+DeleteLocalWimOnSuccess=Yes
